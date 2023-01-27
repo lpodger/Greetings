@@ -60,15 +60,6 @@ form {
 .name-container {
     display: flex;
 }
-/*Utility*/
-
-.center-text {
-    text-align: center;
-}
-
-.hide {
-    display: none;
-}
 
 .reset {
     font-size: 1.5em;
@@ -86,4 +77,22 @@ form {
     background-color: white;
     color: black;
     border: 2px solid #008B8B;
+}
+
+/*Utility*/
+
+.center-text {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.error {
+    color: red;
+}
+
+.input-error {
+    border-color: red;
 }
